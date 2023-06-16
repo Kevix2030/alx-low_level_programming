@@ -3,7 +3,7 @@
  * main - Entry point of the program
  *
  * Description: - This function serves as an entry point of the program.
- * 		It will print  upper and lowercase alphabets.
+ * It will print  upper and lowercase alphabets.
  * Return: Always 0 (success)
  */
 
