@@ -1,27 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point to the program. print alphabets in lower case, skip q and e.
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int lowerCase = 'a'
-		while
-			(LowerCase <= 'z')
-			{
-				if (LowerCase =='e' || LowerCase =='q')
-			{
-	LowerCase += 1;
-			}
-				else
-				{
-					putchar(LowerCase);
-					LowerCas +=;
-				}
-			}
+	char m;
+
+	for (m = 'a'; m <= 'z'; m++)
+	{
+		if (m != 'e' && m != 'q')
+			putchar(m);
+	}
+
 	putchar('\n');
 	return (0);
 }
@@ -46,6 +40,3 @@ int main(void)
 
 
 
-
-
-					
