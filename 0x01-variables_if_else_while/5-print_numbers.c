@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point to the program. print number from 0 to 9
- *
+ * Main - Entry point to the program.
+ * Description: Program prints numbers from 0 to 9.
  * Return: Always 0 (succes)
  */
 int main(void)
