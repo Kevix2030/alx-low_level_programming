@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * mai - Program entry point
- * func - function will generate upper and lowercase alphabets
+ * Description: - this function will generate upper and lowercase alphabets
  * Return: Always return 0 (success)
  */
 
