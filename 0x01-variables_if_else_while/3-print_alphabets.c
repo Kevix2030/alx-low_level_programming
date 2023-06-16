@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * mai - Program entry point
- * Description: - this function will generate upper and lowercase alphabets
- * Return: Always return 0 (success)
+ * main - Entry point of the program
+ *
+ * Description: - This function serves as an entry point of the program.
+ * 		It will print  upper and lowercase alphabets.
+ * Return: Always 0 (success)
  */
 
 int main(void)
