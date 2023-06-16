@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point to the program. print alphabets in lower case, skip q and e.
+ * main - Entry point to the program.
+ * Description: -  print alphabets in lower case, skip q and e.
  *
  * Return: Always 0 (success)
  */
