@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - program entry
- * a C program that prints the size of various types on the computer compile and run on
+ *un on
  * Return 0 (success)
  */
 int main(void)
 {
 	char a;
-	int b;
+ii	int b;
 	long int c;
 	long long int d;
 	float f;
