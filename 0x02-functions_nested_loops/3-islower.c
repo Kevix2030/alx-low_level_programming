@@ -1,4 +1,5 @@
 #include "main.h"
+#include <mylib.h>
 
 /**
  * _islower - Checks for lowercase alphabet
