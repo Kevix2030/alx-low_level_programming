@@ -8,7 +8,7 @@
  *
  * Return: 1 if c is a letter, 0 otherwise
  */
-void test_isalpha(void)
+void _putchar(int c); test_isalpha(void);
 {
 	int r;
 
