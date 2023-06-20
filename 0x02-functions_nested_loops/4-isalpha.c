@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _isalpha - Checks for alphabetic order
  *
@@ -6,8 +8,11 @@
  *
  * Return: 1 if c is a letter, 0 otherwise
  */
-int _isalpha(int c)
+void test_isalpha(void)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	int r;
 
+	r = _isalpha('H');
+	_putchar(r + '0');
+	_putchar('\n');
 }
