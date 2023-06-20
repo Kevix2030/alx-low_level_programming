@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * times_table - check description
@@ -18,24 +20,24 @@ void times_table(void)
 			if ((n / 10) == 0)
 			{
 				if (j != 0)
-					_putchar(' ');
-				_putchar(n + '0');
+				putchar(' ');
+				putchar(n + '0');
 
 				if (j == 9)
 					continue;
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			else
 			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
+				putchar((n / 10) + '0');
+				putchar((n % 10) + '0');
 				if (j == 9)
 					continue;
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
