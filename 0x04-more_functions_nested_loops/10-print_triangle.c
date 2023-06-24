@@ -8,8 +8,10 @@ Void print_trianlge(int n)
 {
 	int h, tri;
 
+	
 	if (n > 0)
 	{
+		
 		for (h = 1; h <= n; h++)
 		{
 			for (tri = n - h; tri > 0;
@@ -18,10 +20,10 @@ Void print_trianlge(int n)
 					for (tri = 0; tri < h; tr++)
 					_putchar('#');
 
-					if (h == n)
+			if (h == n)
 					continue;
-					_putchar('\n');
-					}
-					}
-					_putchar('\n');
+			_putchar('\n');
+		}
+	}
+			_putchar('\n');
 }
