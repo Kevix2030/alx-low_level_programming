@@ -1,25 +1,16 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * print_number - prints an integer
- * @n: integer to be printed
- */
-void print_number(int n)
+* main - Entry point
+* Return: Always 0
+*/
+int main(void)
 {
-	unsigned int n1;
-
-	if (n < 0)
-	{
-		n1 = -n;
-		_putchar('-');
-	}
-	else
-	{n1 = n;
-	}
-	
-	if (n1 / 10)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
+unsigned long int i = 3, n = 612852475143;
+for (; i < 12057; i += 2)
+{
+while (n % i == 0 && n != i)
+n /= i;
+}
+printf("%lu\n", n);
+return (0);
 }
